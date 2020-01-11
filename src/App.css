@@ -1,0 +1,486 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+audio,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details,
+menu {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+canvas {
+  display: inline-block;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* end of set up */
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+/* basic stripping and styling */
+* {
+  /* border: red 1px solid; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  background-color: #d8d8d8;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 100vw;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+/* font styles */
+h1 {
+  font-size: 5rem;
+  padding: 10px 0;
+  text-shadow: 2px 2px white;
+}
+h2 {
+  font-size: 3.5rem;
+  padding: 10px 0;
+  text-decoration: underline;
+  padding-top: 100px;
+}
+h3 {
+  font-size: 2rem;
+
+  padding: 10px;
+}
+p {
+  font-size: 1.5rem;
+}
+/* header styling */
+header {
+  padding: 10px 0;
+}
+/* Form and input styling */
+/* very indepth CSS as nothing will style unless individually targetteed with fieldsets, repetitive looking but most is unavoidable*/
+fieldset {
+  border: none;
+  padding: 5px;
+  text-align: center;
+  width: fit-content;
+  max-width: 60vw;
+  border: 1px black solid;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+input[type="text"] {
+  border-radius: 6px;
+  border: black 2px solid;
+  box-shadow: none;
+  text-align: center;
+  width: 30vw;
+  min-width: 250px;
+  height: 5vh;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+legend {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="radio"] {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+label {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+label:hover,
+label:focus {
+  color: #107515;
+}
+
+/* List Styling */
+
+.groceryList {
+  width: 100%;
+  min-height: 70vh;
+  max-height: fit-content;
+  background-image: url(./assets/paper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  margin: 0 auto;
+  columns: 3;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+.flexcolumn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+
+li {
+  font-size: 2rem;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+/* styling of on click features and buttons */
+.crossedOut {
+  color: red;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+.removeSpan {
+  color: black;
+  padding: 0 10px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  width: 20vw;
+  min-width: 175px;
+  height: 5vh;
+  border-radius: 6px;
+  background: black;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+button:hover,
+button:focus {
+  background: #9dbbd1;
+  color: black;
+  outline: #000 1px solid;
+}
+
+.clearList {
+  margin: 20px;
+}
+/* footer */
+
+footer {
+  height: 30px;
+  background: black;
+  color: white;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* media queries */
+
+/* tablet format looks fine with minor wrapper adjustment, text fonts still appropriate on various screen sizes, keep same */
+@media only screen and (max-width: 901px) {
+  .wrapper {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .wrapper {
+    width: 500px;
+  }
+  h2 {
+    padding-top: 60px;
+  }
+  li {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .wrapper {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .wrapper {
+    width: 350px;
+  }
+  h1 {
+    margin-top: 80px;
+  }
+  .groceryList {
+    margin-top: 120px;
+  }
+  .clearList {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}
+/* printing media */
+
+@media print {
+  button,
+  p,
+  fieldset,
+  span,
+  input {
+    display: none;
+  }
+  h1 {
+    font-size: 4rem;
+    margin: none;
+  }
+  li {
+    /* easier to read on print, style choice */
+    font-family: "Josefin Sans", sans-serif;
+  }
+  ul {
+    /* better use of printer space */
+    columns: 4;
+  }
+}
