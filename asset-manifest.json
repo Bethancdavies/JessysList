@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/JessysList/static/css/main.240d90ff.chunk.css",
-    "main.js": "/JessysList/static/js/main.afa37b00.chunk.js",
-    "main.js.map": "/JessysList/static/js/main.afa37b00.chunk.js.map",
+    "main.js": "/JessysList/static/js/main.18508862.chunk.js",
+    "main.js.map": "/JessysList/static/js/main.18508862.chunk.js.map",
     "runtime-main.js": "/JessysList/static/js/runtime-main.147bdbc1.js",
     "runtime-main.js.map": "/JessysList/static/js/runtime-main.147bdbc1.js.map",
     "static/js/2.5ba4b8e3.chunk.js": "/JessysList/static/js/2.5ba4b8e3.chunk.js",
     "static/js/2.5ba4b8e3.chunk.js.map": "/JessysList/static/js/2.5ba4b8e3.chunk.js.map",
     "index.html": "/JessysList/index.html",
-    "precache-manifest.a8943e42d11ab4e980baaf076ac634c2.js": "/JessysList/precache-manifest.a8943e42d11ab4e980baaf076ac634c2.js",
+    "precache-manifest.6705eeab9db1b3dbc69b38bc6d5e8693.js": "/JessysList/precache-manifest.6705eeab9db1b3dbc69b38bc6d5e8693.js",
     "service-worker.js": "/JessysList/service-worker.js",
     "static/css/main.240d90ff.chunk.css.map": "/JessysList/static/css/main.240d90ff.chunk.css.map",
     "static/media/App.css": "/JessysList/static/media/background.9260d1f7.jpg"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.147bdbc1.js",
     "static/js/2.5ba4b8e3.chunk.js",
     "static/css/main.240d90ff.chunk.css",
-    "static/js/main.afa37b00.chunk.js"
+    "static/js/main.18508862.chunk.js"
   ]
 }
