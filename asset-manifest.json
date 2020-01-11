@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JessysList/./static/css/main.8fc04bb4.chunk.css",
+    "main.js": "/JessysList/./static/js/main.6327ea39.chunk.js",
+    "main.js.map": "/JessysList/./static/js/main.6327ea39.chunk.js.map",
+    "runtime-main.js": "/JessysList/./static/js/runtime-main.047b5c35.js",
+    "runtime-main.js.map": "/JessysList/./static/js/runtime-main.047b5c35.js.map",
+    "static/js/2.a3bb635d.chunk.js": "/JessysList/./static/js/2.a3bb635d.chunk.js",
+    "static/js/2.a3bb635d.chunk.js.map": "/JessysList/./static/js/2.a3bb635d.chunk.js.map",
+    "index.html": "/JessysList/./index.html",
+    "precache-manifest.c71bc7f93ae8344f8222a9cdcd6df003.js": "/JessysList/./precache-manifest.c71bc7f93ae8344f8222a9cdcd6df003.js",
+    "service-worker.js": "/JessysList/./service-worker.js",
+    "static/css/main.8fc04bb4.chunk.css.map": "/JessysList/./static/css/main.8fc04bb4.chunk.css.map",
+    "static/media/App.css": "/JessysList/./static/media/background.9260d1f7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.047b5c35.js",
+    "static/js/2.a3bb635d.chunk.js",
+    "static/css/main.8fc04bb4.chunk.css",
+    "static/js/main.6327ea39.chunk.js"
+  ]
+}
